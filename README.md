@@ -2,95 +2,102 @@
 
 **Lead AI Engineer @ ProjectX** | Bangladesh
 
-Building intelligent systems for Defense, Healthcare, Agriculture, and Smart Cities.
+Building intelligent physical systems — robots that walk, grasp, navigate, and learn.
 
 ---
 
 ### About
 
-I lead AI/ML engineering at ProjectX, a Bangladesh-based technology company developing indigenous solutions across critical sectors. My work spans from edge-deployed neural networks to large-scale distributed systems, with a focus on solving real-world problems in resource-constrained environments.
+I lead AI/ML engineering at ProjectX, a Bangladesh-based technology company developing indigenous solutions across critical sectors. My work spans from legged locomotion to dexterous manipulation, with a focus on bridging the sim-to-real gap for robust robot deployment.
 
 **Core Expertise:**
-- Deep Learning & Computer Vision (YOLOv8, EfficientNet, TensorRT)
-- Embedded AI & TinyML (STM32, ESP32, TensorFlow Lite)
-- Robotics & Autonomous Systems (ROS2, MoveIt2, PX4)
-- Brain-Computer Interfaces (EEG signal processing, EEGNet)
-- IoT & Edge Computing (LoRaWAN, MQTT, ChirpStack)
+- Legged Locomotion (Quadruped & Humanoid)
+- Robotic Manipulation & Grasping
+- Visual SLAM & Navigation
+- Sim-to-Real Transfer & Domain Randomization
+- Edge AI & Embedded Systems
 
 ---
 
 ### Featured Projects
 
-#### Robotics & Autonomous Systems
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [drone-autonomous-mission](https://github.com/imnuman/drone-autonomous-mission) | Autonomous drone control for firefighting operations | ROS2, PX4, OpenCV, MAVLink |
-| [axiom-arm-ros2](https://github.com/imnuman/axiom-arm-ros2) | 6-DOF robotic arm with MoveIt2 motion planning | ROS2 Humble, Dynamixel, URDF |
+#### Physical AI & Robotics
 
-#### Defense & Security
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [border-surveillance-ai](https://github.com/imnuman/border-surveillance-ai) | Real-time border monitoring with thermal fusion | YOLOv8, TensorRT, OpenCV |
+| [humanoid-motion-control](https://github.com/imnuman/humanoid-motion-control) | Whole-body MPC for bipedal walking | MPC, WBC, Pinocchio, OSQP |
+| [quadruped-locomotion](https://github.com/imnuman/quadruped-locomotion) | RL-based walking for quadruped robots | PPO, Isaac Gym, ROS2 |
+| [robotic-grasping-6dof](https://github.com/imnuman/robotic-grasping-6dof) | 6-DOF grasp pose estimation | PointNet++, Contact-GraspNet |
+| [sim2real-manipulation](https://github.com/imnuman/sim2real-manipulation) | Domain randomization for manipulation | Isaac Gym, Teacher-Student |
+| [visual-slam-ros2](https://github.com/imnuman/visual-slam-ros2) | Visual-inertial SLAM system | ORB, IMU, GTSAM, ROS2 |
+| [agri-robot-autonomous](https://github.com/imnuman/agri-robot-autonomous) | Autonomous agricultural robot | Nav2, YOLOv8, RTK-GPS |
 
-#### Healthcare & BCI
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [ecg-monitor-embedded](https://github.com/imnuman/ecg-monitor-embedded) | Portable ECG with on-device arrhythmia detection | STM32, TFLite Micro, BLE |
-| [eeg-signal-processing](https://github.com/imnuman/eeg-signal-processing) | Motor intent classification for brain-computer interfaces | PyTorch, EEGNet, OpenBCI |
+#### Autonomous Systems
 
-#### Agriculture
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [flood-prediction-ml](https://github.com/imnuman/flood-prediction-ml) | 72-hour flood forecasting for Bangladesh river basins | TensorFlow, ConvLSTM, Transformers |
-| [crop-disease-detection](https://github.com/imnuman/crop-disease-detection) | Multi-crop disease classification with Bengali support | EfficientNet, FastAPI, TFLite |
+| [drone-autonomous-mission](https://github.com/imnuman/drone-autonomous-mission) | Autonomous drone for firefighting | ROS2, PX4, OpenCV, MAVLink |
+| [axiom-arm-ros2](https://github.com/imnuman/axiom-arm-ros2) | 6-DOF robotic arm with MoveIt2 | ROS2 Humble, Dynamixel, URDF |
 
-#### Smart City & IoT
+#### AI & Computer Vision
+
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [smart-traffic-ai](https://github.com/imnuman/smart-traffic-ai) | RL-based adaptive traffic signal optimization | PyTorch, DQN, SUMO, YOLOv8 |
-| [lorawan-sensor-network](https://github.com/imnuman/lorawan-sensor-network) | Long-range IoT for rural connectivity | ChirpStack, ESP32, SX1276 |
+| [border-surveillance-ai](https://github.com/imnuman/border-surveillance-ai) | Real-time border monitoring | YOLOv8, TensorRT, Thermal |
+| [crop-disease-detection](https://github.com/imnuman/crop-disease-detection) | Multi-crop disease classification | EfficientNet, TFLite |
+| [flood-prediction-ml](https://github.com/imnuman/flood-prediction-ml) | 72-hour flood forecasting | ConvLSTM, Transformers |
+| [eeg-signal-processing](https://github.com/imnuman/eeg-signal-processing) | Motor intent classification (BCI) | EEGNet, PyTorch |
+
+#### IoT & Embedded
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [ecg-monitor-embedded](https://github.com/imnuman/ecg-monitor-embedded) | Portable ECG with TinyML | STM32, TFLite Micro |
+| [lorawan-sensor-network](https://github.com/imnuman/lorawan-sensor-network) | Long-range IoT infrastructure | ChirpStack, ESP32 |
+| [smart-traffic-ai](https://github.com/imnuman/smart-traffic-ai) | Adaptive traffic control | DQN, SUMO, YOLOv8 |
 
 #### Full-Stack
+
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [projectx-website](https://github.com/imnuman/projectx-website) | ProjectX company website and API | Next.js 14, Express.js, MongoDB |
+| [projectx-website](https://github.com/imnuman/projectx-website) | Company website and API | Next.js 14, Express, MongoDB |
 
 ---
 
 ### Tech Stack
 
+**Robotics**
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white)
+![Isaac Gym](https://img.shields.io/badge/Isaac_Gym-76B900?style=flat&logo=nvidia&logoColor=white)
+![MuJoCo](https://img.shields.io/badge/MuJoCo-4285F4?style=flat&logoColor=white)
+![Pinocchio](https://img.shields.io/badge/Pinocchio-FF6F00?style=flat&logoColor=white)
+
+**ML/DL**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
+
 **Languages**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 
-**ML/DL Frameworks**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat&logo=onnx&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white)
-
-**Robotics & Embedded**
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white)
+**Embedded**
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
-
-**Cloud & DevOps**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+![Jetson](https://img.shields.io/badge/Jetson-76B900?style=flat&logo=nvidia&logoColor=white)
 
 ---
 
-### Current Focus
+### Research Interests
 
-- Scaling edge AI deployment for agricultural monitoring across Bangladesh
-- Developing low-cost BCI solutions for assistive technology
-- Building indigenous defense systems with real-time threat detection
-- Creating resilient IoT infrastructure for flood-prone regions
+- **Legged Locomotion**: Making robots walk robustly in real-world terrain
+- **Dexterous Manipulation**: Learning to grasp and manipulate in clutter
+- **Sim-to-Real Transfer**: Closing the reality gap for robot learning
+- **Edge AI**: Deploying ML models on resource-constrained hardware
+- **Agricultural Robotics**: Autonomous farming for developing regions
 
 ---
 
