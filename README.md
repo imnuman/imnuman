@@ -103,7 +103,7 @@ I lead AI/ML engineering at ProjectX, a Bangladesh-based technology company deve
 
 ### Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/imnuman)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/al-numan-0b49372bb)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:numan@projectx.com.bd)
 
 ---
