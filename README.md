@@ -36,6 +36,12 @@ Roboticist and AI engineer obsessed with Physical AI — machines that move, sen
 | [**jetson-object-detection**](https://github.com/imnuman/jetson-object-detection) | TensorRT inference pipeline | 45 FPS on Orin Nano |
 | [**bengali-speech-recognition**](https://github.com/imnuman/bengali-speech-recognition) | Bengali voice commands for robots | WER: 12.3%, 120ms latency |
 
+### Brain-Computer Interface
+
+| Project | Description | Key Results |
+|---------|-------------|-------------|
+| [**bci-speech-synthesis**](https://github.com/imnuman/bci-speech-synthesis) | EEG-to-speech for assistive communication | <200ms latency, Jetson Orin NX |
+
 ### Autonomous Systems
 
 | Project | Description | Key Results |
@@ -50,6 +56,7 @@ Roboticist and AI engineer obsessed with Physical AI — machines that move, sen
 **Deep Learning:** PyTorch, TensorFlow, JAX, Transformers
 **RL:** Isaac Gym, PPO, SAC, Domain Randomization
 **Vision:** YOLOv8, OpenCV, ORB-SLAM
+**BCI:** EEG Signal Processing, TCN, LSL, Whisper
 **Edge:** Jetson, TensorRT, ONNX, TFLite
 **Languages:** Python, C++, CUDA, Rust
 
